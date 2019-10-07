@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+    <head>
+        
+        <style>
+                #box
+                {
+                    width:30%;
+                    height: 40%;
+                    border-style: solid;
+                    border-color: black;
+                    margin: auto;
+                }
+                #day
+                {
+                    margin-top: 5%;
+                    margin-left:5%;
+                    margin-right:5%;
+                    width:88%;
+                    height: 80%;
+                    border-style: solid;
+                    border-color: black;
+                    border-radius: 2px;
+                    text-align: center;
+                    font-size:35px;
+                    padding-top:30px;
+                    padding-bottom: 30px;
+                }
+                
+                #controls
+                {
+                    margin-top: 5%;
+                    margin-left:5%;
+                    margin-right:5%;
+                    margin-bottom:5%; 
+                    width:88%;
+                    height: 80%;
+                    border-style: solid;
+                    border-color: black;
+                    border-radius: 2px;
+                    text-align: center;
+                }
+                button 
+                {
+                    background-color: #FFA500;
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                }
+                .b1
+                {
+                    display:inline-block;
+                   
+                }
+                .b2
+                {
+                    display:inline-block;
+                }
+                
+
+
+        </style>
+    </head>
+    <body>
+            <div id="box">
+                <div id="day">
+
+                </div>
+                <div id="controls">
+                       <div class="b1">
+                            <button name="pre"  type="submit" onclick="pre()" >PRE</button>
+                       </div> 
+                       <div class="b2">
+                            <button name="next" type="submit" onclick="next()" >NEXT</button>
+                       </div> 
+                        
+                </div>
+            </div>
+            <script src="days.js"></script>
+    </body>
+</html>

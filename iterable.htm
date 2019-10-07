@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+
+<script>
+//this script is for iterable
+/*
+let  mySet = new Set([1,2,2,2,2,3]);
+//console.log(mySet);
+
+for(let val of mySet)
+{
+    console.log(val);
+}
+*/
+
+//this script for iterator
+let myArray = [1,2,3,4,5];
+let iterator = myArray[Symbol.iterator]();
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+</script>

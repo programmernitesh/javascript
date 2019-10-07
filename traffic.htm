@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <head>
+        <script src="traffic.js"></script>
+        <style>
+            #box
+            {
+                    width:30%;
+                    height: 40%;
+                    border-style: solid;
+                    border-color: black;
+                    margin: auto;
+            }
+            #light
+            {
+                    margin-top: 5%;
+                    margin-left:5%;
+                    margin-right:5%;
+                    width:88%;
+                    height: 80%;
+                    border-style: solid;
+                    border-color: black;
+                    border-radius: 2px;
+                    text-align: center;
+                    font-size:35px;
+                    padding-top:30px;
+                    padding-bottom: 30px;
+            }
+            #input
+            {
+                    margin-top: 5%;
+                    margin-left:5%;
+                    margin-right:5%;
+                    margin-bottom:5%; 
+                    width:88%;
+                    height: 80%;
+                    border-style: none;
+                    text-align: center;
+            }
+            .circle
+            {
+                    height: 50px;
+                    width: 50px;
+                    background-color: #ffffff ;
+                    border-radius: 50%;
+                    margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+            <div id="box">
+                    <div id="light">
+                            <div class="circle" id="cir"></div>
+                    </div>
+                    <div id="input">
+                        <input type="number" id="input_value"/>
+                        <button name="next" type="submit" onclick="calc_value()">ENTER</button>
+                    </div>
+            </div>
+    </body>
+</html>
